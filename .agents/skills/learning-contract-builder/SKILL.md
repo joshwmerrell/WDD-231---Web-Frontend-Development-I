@@ -51,6 +51,9 @@ When the interview is complete:
 3. If using an existing project, reference its path and make only agreed changes outside the assessed implementation. If starting a new project, create `projects/<project-name>/` with a minimal, useful scaffold matched to the student's project choice and contract. Keep all assessed slice code for the student. Do not install dependencies or add frameworks unless the student and course requirements call for them.
 4. Determine the next unused contract number and format it with at least two digits (for example, `01`, `14`, or `100`). Create the matching `evidence/cNN/` folder, where `NN` is the same formatted number as the contract. Keep it ready for the student's evidence; do not fabricate or prefill evidence.
 5. Save the new contract as `contracts/cNN.md`, using the same number as its evidence folder, and link to the project and evidence paths where relevant. Leave both templates, peer-review records, and the competency tracker unchanged until the student actually completes those steps.
+6. Update the workspace `README.md` project index for the new or extended project. A project may have multiple contracts over time: keep one project row when practical and append the new contract link, matching evidence-folder link, focus, and review status to that project's entries. Show the matching peer review as pending/not yet created until `reviews/rNN.md` exists. Do not claim peer-review completion or pass-off in the README.
+
+When revising an existing contract or continuing work on its project, keep the corresponding README project-index row accurate if the project path, contract relationship, evidence location, focus, or status changes. If the project already has other contracts, preserve their links and statuses and append or update only the relevant contract entry. Do not overwrite unrelated README content.
 
 ## Remind the student about evidence
 

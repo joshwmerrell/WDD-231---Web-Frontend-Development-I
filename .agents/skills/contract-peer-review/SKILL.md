@@ -29,8 +29,11 @@ Before asking substantive review questions:
 2. Fill in facts already known from the contract, such as the student, contract link, competencies, and one table row for each included slice. Mark each slice `Not yet reviewed`.
 3. Add a progress header with `Review progress: In progress`, the contract filename, and `Next question to ask: [specific question or participant]`.
 4. Add a `Review checkpoints` section for the questions and answers. Save the initial file before asking the first review question.
+5. Update the workspace `README.md` project index so the project row associated with the contract includes the new `reviews/rNN.md` link and shows that contract's review status as in progress. A project may have multiple contracts and reviews: preserve all existing contract, evidence, and review links, and append the new review to the same project row when practical. Do not add a review link before the file exists.
 
 If the matching review file already exists and is incomplete, continue editing that file; do not create a duplicate. If its next prompt is recorded, ask that prompt first. If it lacks a clear next prompt, inspect the unanswered fields and slice rows, record the next question, save, and then ask it.
+
+When a review's progress or completion status changes, keep the corresponding README project-index row accurate for that contract. Use statuses such as `c01 review in progress`, `c01 review complete`, or `c01 follow-up needed`; link only to the actual review file. Preserve statuses for other contracts associated with the same project. Do not describe a review as complete when required peer participation, slice feedback, or template sections are still missing.
 
 When a target contract cannot be determined, it is acceptable to ask which contract the student means first. Create the corresponding review file immediately after the target is known and before asking review-content questions.
 
@@ -61,6 +64,8 @@ Set `Review progress: Complete` only when:
 - no question remains unanswered.
 
 If there are unresolved gaps, mark the affected rows `Follow-up needed` and record those steps while marking the review conversation complete only after all required participants and sections are covered. Leave the review `In progress` if the peer has not participated or required answers are still pending.
+
+After marking a review complete or recording follow-up needs, update the README project index with that contract's review link and an accurate status. Do not remove or replace other contracts associated with the project. Do not update the competency tracker as part of this README maintenance; the instructor or TA pass-off remains a separate step.
 
 If the student requests another review of a contract whose `rNN.md` is already complete, continue in that same file as a dated follow-up section; do not create a second file with the same name or mark the competency passed.
 
