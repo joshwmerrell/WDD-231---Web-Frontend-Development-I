@@ -1,8 +1,10 @@
-# Learning Contract: [Short title]
+# Learning Contract cNN: [Short title]
 
 Student: [Name]  
 Date: [Date]  
 Target review date: [Date]
+
+Peer review: [Peer Review rNN](../reviews/rNN.md) — not yet created
 
 ## Primary competency and planned slices
 

@@ -1,7 +1,7 @@
-# Peer Review: [Competency or contract focus]
+# Peer Review rNN: [Competency or contract focus]
 
 Student: [Name]  
-Contract: [Link]  
+Contract: [Learning Contract cNN](../contracts/cNN.md)  
 Peer reviewer: [Name]  
 Review date: [Date]
 
