@@ -2,6 +2,7 @@
 
 Student: [Name]  
 Contract: [Learning Contract cNN](../contracts/cNN.md)  
+Evidence: [Evidence index cNN](../evidence/cNN/)  
 Peer reviewer: [Name]  
 Review date: [Date]
 

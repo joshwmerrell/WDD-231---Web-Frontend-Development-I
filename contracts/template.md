@@ -4,7 +4,8 @@ Student: [Name]
 Date: [Date]  
 Target review date: [Date]
 
-Peer review: [Peer Review rNN](../reviews/rNN.md) — not yet created
+Peer review: [Peer Review rNN](../reviews/rNN.md) — not yet created  
+Evidence: [Evidence index cNN](../evidence/cNN/)
 
 ## Primary competency and planned slices
 

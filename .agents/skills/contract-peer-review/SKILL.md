@@ -26,17 +26,19 @@ Map contract `cNN.md` to review `rNN.md` using the same numeric portion and at l
 Before asking substantive review questions:
 
 1. If `reviews/rNN.md` does not exist, create it immediately by copying the structure of `reviews/template.md` into a new file. Never change the template itself.
-2. Fill in facts already known from the contract, such as the student, a reciprocal relative link to `../contracts/cNN.md`, competencies, and one table row for each included slice. Mark each slice `Not yet reviewed`. Include `rNN` in the review title.
+2. Fill in facts already known from the contract, such as the student, reciprocal relative links to `../contracts/cNN.md` and `../evidence/cNN/`, competencies, and one table row for each included slice. Mark each slice `Not yet reviewed`. Include `rNN` in the review title.
 3. Add a progress header with `Review progress: In progress`, the contract filename, and `Next question to ask: [specific question or participant]`.
 4. Add a `Review checkpoints` section for the questions and answers. Save the initial file before asking the first review question.
 5. Update the workspace `README.md` project index so the project row associated with the contract includes the new `reviews/rNN.md` link and shows that contract's review status as in progress. A project may have multiple contracts and reviews: preserve all existing contract, evidence, and review links, and append the new review to the same project row when practical. Do not add a review link before the file exists.
-6. Update `contracts/cNN.md` near its metadata so its planned review reference points to the created `../reviews/rNN.md` record and says `Review in progress`. Ensure the review's `Contract:` field links back to `../contracts/cNN.md`.
+6. Update `contracts/cNN.md` near its metadata so its review reference points to the created `../reviews/rNN.md` record and says `Review in progress`, and confirm it links to `../evidence/cNN/`. Ensure the review's `Contract:` and `Evidence:` fields link back to `../contracts/cNN.md` and `../evidence/cNN/`.
 
 If the matching review file already exists and is incomplete, continue editing that file; do not create a duplicate. If its next prompt is recorded, ask that prompt first. If it lacks a clear next prompt, inspect the unanswered fields and slice rows, record the next question, save, and then ask it.
 
 When a review's progress or completion status changes, keep the corresponding README project-index row accurate for that contract. Use statuses such as `c01 review in progress`, `c01 review complete`, or `c01 follow-up needed`; link only to the actual review file. Preserve statuses for other contracts associated with the same project. Do not describe a review as complete when required peer participation, slice feedback, or template sections are still missing.
 
-Keep the reciprocal links and status synchronized throughout the workflow. When the review becomes complete, update the linked contract's review line to `Review complete` (or `Follow-up needed` if the record identifies unresolved work) and keep its `[Peer Review rNN]` link intact. The review file must continue to link to its corresponding `[Learning Contract cNN]`. Do not mark the whole competency as passed based on the review.
+Keep the reciprocal links and status synchronized throughout the workflow. When the review becomes complete, update the linked contract's review line to `Review complete` (or `Follow-up needed` if the record identifies unresolved work) and keep its `[Peer Review rNN]` link intact. The review file must continue to link to its corresponding `[Learning Contract cNN]` and `[Evidence index cNN]`.
+
+When completing the review, update the `## Evidence Summary` section near the top of `evidence/cNN/index.md`. This summary covers all notes and evidence collected for the contract, not only the review discussion. Summarize the evidence and notes available, what the student demonstrated, the peer's main feedback, slice statuses, and follow-up actions; link to `reviews/rNN.md`. Base it only on recorded evidence and participant responses, and identify any missing evidence rather than inferring results. Reconcile the evidence-file inventory and update the README project row. Do not mark the whole competency as passed based on the review.
 
 When a target contract cannot be determined, it is acceptable to ask which contract the student means first. Create the corresponding review file immediately after the target is known and before asking review-content questions.
 

@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.root": "/",
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  }
+}

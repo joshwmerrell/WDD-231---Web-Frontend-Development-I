@@ -22,13 +22,14 @@ Debugging and evidence-based troubleshooting are part of every contract and pass
 
 ## Workspace map
 
-- `contracts/` — learning contracts and a blank contract template.
-- `reviews/` — peer review records and a blank review template. A review record may cover multiple slices; record the peer feedback and status for each slice separately.
+- `contracts/` — learning contracts and the [blank contract template](contracts/template.md).
+- `reviews/` — peer review records and the [blank review template](reviews/template.md). A review record may cover multiple slices; record the peer feedback and status for each slice separately.
 - `projects/` — your project code, organized by project. The README project index below connects each project to one or more contracts, evidence folders, and peer reviews.
-- `evidence/` — screenshots, test notes, investigation records, and other evidence, organized by contract.
+- `evidence/` — screenshots, test notes, investigation records, and other evidence, organized by contract. Each contract folder uses `index.md` as its GitHub Pages landing page and evidence index.
 - [`competency-progress-tracker.md`](competency-progress-tracker.md) — peer-reviewed slice records and whole-competency instructor or TA pass-off results. All progress starts blank.
-- `.agents/skills/learning-contract-builder/` — the WDD 231 contract-building skill, which interviews you, plans the project within the AI policy, and reminds you to collect evidence.
-- `.agents/skills/contract-peer-review/` — the WDD 231 peer-review skill, which creates or resumes the matching `reviews/rNN.md` and checkpoints the review as the student and peer respond.
+- [Learning contract builder skill](.agents/skills/learning-contract-builder/SKILL.md) — interviews you, plans the project within the AI policy, and reminds you to collect evidence.
+- [Contract peer-review skill](.agents/skills/contract-peer-review/SKILL.md) — creates or resumes the matching `reviews/rNN.md` and checkpoints the review as you and your peer respond.
+- [Contract evidence index skill](.agents/skills/contract-evidence-index/SKILL.md) — creates and maintains timestamped evidence notes and the linked evidence index for each contract.
 - `.old_code_before_restart/` — archived prior work retained as reference; it is not carried forward as completed progress.
 
 ## Project index
@@ -37,7 +38,7 @@ Keep this table current as contracts and peer reviews are created. A project may
 
 | Project | Contracts | Evidence folders | Peer reviews | Focus/status |
 | --- | --- | --- | --- | --- |
-| [Personal portfolio](projects/personal-portfolio/) | [c01](contracts/c01.md) | [c01 evidence](evidence/c01/) | Not yet created (`r01.md` planned) | Semantic and accessible HTML — c01 in progress |
+| [Personal portfolio](projects/personal-portfolio/) | [c01](contracts/c01.md) | [c01 evidence index](evidence/c01/) | Not yet created (`r01.md` planned) | Semantic and accessible HTML — c01 in progress |
 
 ## Course references
 
