@@ -18,7 +18,7 @@ Read `README.md`, the relevant contract, and the contents of the matching eviden
 
 ## Create or reconcile the index
 
-For contract `cNN.md`, use `evidence/cNN/index.md`. Preserve existing notes and the `Evidence Summary` when updating the file. If the index does not exist, create it with Jekyll front matter that gives it the evidence folder's landing URL, for example:
+For contract `cNN.md`, use `evidence/cNN/index.md`. Preserve existing notes, the `Evidence summary`, and the `AI use` section when updating the file. If the index does not exist, create it with Jekyll front matter that gives it the evidence folder's landing URL, for example:
 
 ```yaml
 ---
@@ -32,11 +32,12 @@ The index should include, in this order:
 
 1. A title naming the evidence index and contract number.
 2. Links to the matching learning contract and peer review, with the review marked pending until its file exists.
-3. An `Evidence Summary` section near the top, initially marked not yet summarized. When the peer review is complete, the peer-review skill fills it with a summary of all notes and evidence for the contract, plus the review findings and follow-up actions.
-4. A timestamped notes timeline.
-5. A reconciled evidence-file list linking to files currently present under `evidence/cNN/`, excluding `index.md` itself. Include nested files with paths relative to the evidence folder.
+3. An `Evidence summary` section near the top, initially marked not yet summarized. When the peer review is complete, the peer-review skill fills it with a concise summary of the evidence and notes collected for the contract. This section contains evidence summary only; exclude peer feedback, review findings, slice statuses, and follow-up actions.
+4. An `AI use` section immediately below `Evidence summary`, initially marked not yet reviewed. When completing the peer review, compare the AI-use plan in the contract with the notes and the student's confirmation. Summarize what the student did and did not do relative to that plan, including deviations or uncertainty.
+5. A timestamped notes timeline.
+6. A reconciled evidence-file list linking to files currently present under `evidence/cNN/`, excluding `index.md` itself. Include nested files with paths relative to the evidence folder.
 
-Compare the complete current folder contents with the evidence-file list each time the index is created or updated. Add links for unlisted files and remove stale links for files that no longer exist; do not delete, move, or rename evidence. Preserve the `Evidence Summary` and notes timeline while reconciling the file list. Do not list directories as evidence files.
+Compare the complete current folder contents with the evidence-file list each time the index is created or updated. Add links for unlisted files and remove stale links for files that no longer exist; do not delete, move, or rename evidence. Preserve the `Evidence summary`, `AI use`, and notes timeline while reconciling the file list. Do not list directories as evidence files.
 
 When the index is created or its contract/review links change, update the corresponding row in the README project index and the matching contract and review files when they exist. Add a visible evidence-index link in the contract and review. The index itself must link back to its contract and matching review. Keep multiple contracts under one project represented as separate entries in that project's row. Do not fabricate a review record when it has not been created; the planned relative review link may be marked pending until the peer-review workflow creates it.
 

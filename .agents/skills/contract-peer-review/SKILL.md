@@ -38,7 +38,19 @@ When a review's progress or completion status changes, keep the corresponding RE
 
 Keep the reciprocal links and status synchronized throughout the workflow. When the review becomes complete, update the linked contract's review line to `Review complete` (or `Follow-up needed` if the record identifies unresolved work) and keep its `[Peer Review rNN]` link intact. The review file must continue to link to its corresponding `[Learning Contract cNN]` and `[Evidence index cNN]`.
 
-When completing the review, update the `## Evidence Summary` section near the top of `evidence/cNN/index.md`. This summary covers all notes and evidence collected for the contract, not only the review discussion. Summarize the evidence and notes available, what the student demonstrated, the peer's main feedback, slice statuses, and follow-up actions; link to `reviews/rNN.md`. Base it only on recorded evidence and participant responses, and identify any missing evidence rather than inferring results. Reconcile the evidence-file inventory and update the README project row. Do not mark the whole competency as passed based on the review.
+Before completing the review, compare the AI-use plan in `contracts/cNN.md` with the notes in `evidence/cNN/index.md` and any related evidence. Review this briefly with the student:
+
+- Treat an AI-use action as followed when the notes clearly document it. Briefly state what the note records and invite the student to correct or add context; do not repeat detailed questions already answered in the notes.
+- Ask a focused question about any planned action whose actual use is unclear, undocumented, changed, or not followed. Record the student's answer, including what they did or did not do and why when they choose to explain.
+- Do not infer AI use from the existence of code or evidence. If the student cannot confirm an item, mark it unclear rather than assuming they followed the plan.
+
+Checkpoint this AI-use conversation using the same pending-question and answer process as the other review questions. Do not mark the review complete or update the evidence index's AI-use summary until the student has had a chance to confirm or correct the comparison.
+
+When completing the review, update `## Evidence summary` near the top of `evidence/cNN/index.md` with a concise summary of the notes and evidence collected for the contract. Keep this section limited to the evidence itself; do not include peer feedback, review findings, slice statuses, or follow-up actions.
+
+Immediately below it, update `## AI use` with a concise comparison of the contract's planned AI use and the student's confirmed actual use. Specifically state which planned actions the student followed, which they changed or did not do, and any parts that remain unclear. Use the notes and the student's review answers; do not infer missing details. If the contract says AI was not used or no AI use was planned, record that accurately.
+
+Reconcile the evidence-file inventory and update the README project row. Do not mark the whole competency as passed based on the review.
 
 When a target contract cannot be determined, it is acceptable to ask which contract the student means first. Create the corresponding review file immediately after the target is known and before asking review-content questions.
 
