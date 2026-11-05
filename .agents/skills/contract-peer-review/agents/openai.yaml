@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contract Peer Review"
+  short_description: "Run and resume WDD 231 peer reviews"
+  default_prompt: "Use $contract-peer-review to review my WDD 231 contract with my peer."

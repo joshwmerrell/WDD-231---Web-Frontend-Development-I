@@ -1,0 +1,37 @@
+/* This is the stylesheet for the main page only. */
+
+#articles {
+    padding: 10% 10% 5% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article_link {
+    margin: 2%;
+    max-width: 25%;
+    min-width: 200px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article_link:hover, .article_link:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.article {
+    padding: 8%;
+    > h3 {
+        font-size: 1.25em;
+    }
+    .article-date {
+        font-size: 0.9em;
+        color: #666;
+    }
+}
+
+#all_articles_link {
+    text-decoration: underline;
+    font-style: italic;
+}

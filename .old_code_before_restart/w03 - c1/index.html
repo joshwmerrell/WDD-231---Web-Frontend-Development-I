@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A field guide to day hikes in the Greater Yellowstone area."
+    />
+    <title>Yellowstone Field Notes | Day Hikes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/navigation.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a
+          class="wordmark"
+          href="#top"
+          aria-label="Yellowstone Field Notes home"
+        >
+          <span class="wordmark-mark" aria-hidden="true">Y</span>
+          <span>Yellowstone <strong>Field Notes</strong></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span class="menu-icon" aria-hidden="true"></span>
+          <span class="menu-label">Menu</span>
+        </button>
+        <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+          <a href="#hikes">Hikes</a>
+          <a href="#field-notes">Field notes</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="intro" id="top" aria-labelledby="page-title">
+        <div class="intro-inner">
+          <p class="eyebrow">
+            <span class="eyebrow-dot"></span> Greater Yellowstone · Day hikes
+          </p>
+          <h1 id="page-title">
+            Find your trail<br />in the <em>wide open.</em>
+          </h1>
+          <p class="intro-copy">
+            From quiet geyser basins to high alpine ridges, start with a trail
+            that fits your day.
+          </p>
+          <a class="text-link" href="#hikes"
+            >Browse the hike list <span aria-hidden="true">↓</span></a
+          >
+          <div class="intro-stamp" aria-hidden="true">
+            <span>44° 25′ N</span>
+            <span>110° 35′ W</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="hikes-section" id="hikes" aria-labelledby="hikes-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">
+              The trail index <span class="eyebrow-rule"></span>
+            </p>
+            <h2 id="hikes-title">Choose your kind of day</h2>
+          </div>
+          <label class="filter-control" for="difficulty-filter">
+            <span>Difficulty</span>
+            <select id="difficulty-filter" name="difficulty">
+              <option value="all">All levels</option>
+              <option value="Easy">Easy</option>
+              <option value="Moderate">Moderate</option>
+              <option value="Strenuous">Strenuous</option>
+            </select>
+          </label>
+        </div>
+        <p class="results-count">6 hikes</p>
+        <div class="hike-list" id="hike-list">
+          <article class="hike-card">
+            <span class="hike-index" aria-hidden="true">01</span>
+            <div>
+              <p class="hike-area">Midway Geyser Basin</p>
+              <h3>Fairy Falls</h3>
+              <p class="hike-description">
+                Walk through lodgepole pine forest to a tall waterfall near the
+                Grand Prismatic Spring overlook.
+              </p>
+            </div>
+            <div class="hike-facts" aria-label="Trail details">
+              <span>Distance <strong>5.4 mi</strong></span>
+              <span>Gain <strong>170 ft</strong></span>
+              <span class="difficulty">Easy</span>
+            </div>
+          </article>
+
+          <article class="hike-card">
+            <span class="hike-index" aria-hidden="true">02</span>
+            <div>
+              <p class="hike-area">Biscuit Basin</p>
+              <h3>Mystic Falls</h3>
+              <p class="hike-description">
+                Follow the Little Firehole River to a waterfall, with an
+                optional climb to an overlook above the basin.
+              </p>
+            </div>
+            <div class="hike-facts" aria-label="Trail details">
+              <span>Distance <strong>2.4 mi</strong></span>
+              <span>Gain <strong>700 ft</strong></span>
+              <span class="difficulty">Moderate</span>
+            </div>
+          </article>
+
+          <article class="hike-card">
+            <span class="hike-index" aria-hidden="true">03</span>
+            <div>
+              <p class="hike-area">Old Faithful area</p>
+              <h3>Lone Star Geyser</h3>
+              <p class="hike-description">
+                A mostly level route follows the Firehole River to a geyser in a
+                quiet forest clearing.
+              </p>
+            </div>
+            <div class="hike-facts" aria-label="Trail details">
+              <span>Distance <strong>4.8 mi</strong></span>
+              <span>Gain <strong>120 ft</strong></span>
+              <span class="difficulty">Easy</span>
+            </div>
+          </article>
+
+          <article class="hike-card">
+            <span class="hike-index" aria-hidden="true">04</span>
+            <div>
+              <p class="hike-area">Sylvan Pass</p>
+              <h3>Avalanche Peak</h3>
+              <p class="hike-description">
+                A steep climb above the tree line rewards hikers with broad
+                views of Yellowstone's eastern ranges.
+              </p>
+            </div>
+            <div class="hike-facts" aria-label="Trail details">
+              <span>Distance <strong>4.2 mi</strong></span>
+              <span>Gain <strong>2,100 ft</strong></span>
+              <span class="difficulty">Strenuous</span>
+            </div>
+          </article>
+
+          <article class="hike-card">
+            <span class="hike-index" aria-hidden="true">05</span>
+            <div>
+              <p class="hike-area">Grand Teton National Park</p>
+              <h3>Taggart Lake</h3>
+              <p class="hike-description">
+                A forest-and-meadow loop reaches a clear lake beneath the
+                dramatic Teton front.
+              </p>
+            </div>
+            <div class="hike-facts" aria-label="Trail details">
+              <span>Distance <strong>3 mi</strong></span>
+              <span>Gain <strong>350 ft</strong></span>
+              <span class="difficulty">Moderate</span>
+            </div>
+          </article>
+
+          <article class="hike-card">
+            <span class="hike-index" aria-hidden="true">06</span>
+            <div>
+              <p class="hike-area">Grand Teton National Park</p>
+              <h3>Delta Lake</h3>
+              <p class="hike-description">
+                A demanding route climbs to a vivid alpine lake; the final
+                section is steep and unmaintained.
+              </p>
+            </div>
+            <div class="hike-facts" aria-label="Trail details">
+              <span>Distance <strong>7.4 mi</strong></span>
+              <span>Gain <strong>2,300 ft</strong></span>
+              <span class="difficulty">Strenuous</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="field-notes"
+        id="field-notes"
+        aria-labelledby="field-notes-title"
+      >
+        <div class="field-notes-inner">
+          <p class="eyebrow">
+            Before you go <span class="eyebrow-rule"></span>
+          </p>
+          <h2 id="field-notes-title">
+            A good day starts<br />with a little <em>care.</em>
+          </h2>
+          <p>
+            Conditions change quickly here. Check current park alerts, carry
+            water, and give wildlife plenty of room.
+          </p>
+          <a
+            class="text-link"
+            href="https://www.nps.gov/yell/planyourvisit/safety.htm"
+          >
+            Yellowstone safety information <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="field-notes-number" aria-hidden="true">
+          01 <span>/ FIELD GUIDE</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <a class="wordmark footer-wordmark" href="#top">
+        <span class="wordmark-mark" aria-hidden="true">Y</span>
+        <span>Yellowstone <strong>Field Notes</strong></span>
+      </a>
+      <p>
+        Questions about this guide?
+        <a href="mailto:hello@yellowstonefieldnotes.example">Send a note</a>
+      </p>
+      <p class="footer-credit">A trail guide demo · Greater Yellowstone</p>
+    </footer>
+  </body>
+</html>

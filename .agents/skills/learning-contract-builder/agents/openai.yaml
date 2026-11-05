@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Contract Builder"
+  short_description: "Plan WDD 231 contracts and project work"
+  default_prompt: "Use $learning-contract-builder to plan my next WDD 231 learning contract."
