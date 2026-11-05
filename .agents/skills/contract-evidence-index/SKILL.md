@@ -44,6 +44,8 @@ When the index is created or its contract/review links change, update the corres
 
 When the user asks to add a note, write a concise, faithful summary of the information they provide in the notes timeline. Preserve earlier notes and order entries newest first. Format each entry as a list item with the creation timestamp followed by the note, for example `- **2026-11-05T14:30:00-07:00** — [note summary]`. Each entry must include its creation date and time in ISO 8601 format with an explicit timezone offset, for example `2026-11-05T14:30:00-07:00`.
 
+If the user has not said whether they used AI for the project or whether they want that use documented, ask whether they used AI and whether they would like to include it in this note or add a separate note. If they want to document AI use, ask what they asked the AI and how it helped. Record only what they choose to share; do not infer AI use or press them to include it. Wait for their answer before writing the note when the answer affects its contents.
+
 Use the timezone supplied by the user's current context when available. Otherwise use UTC and label it explicitly. Obtain the current time from an available clock source; do not invent or backdate timestamps. If the user supplies an event date different from the note creation time, keep it as note content and still timestamp when the note was recorded.
 
 After adding the note, reconcile the evidence-file list and update links in README and the matching contract/review files as described above. Report the index path and entry added. Do not claim the contents were published to GitHub Pages unless deployment was actually observed.
