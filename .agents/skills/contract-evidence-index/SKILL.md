@@ -33,7 +33,7 @@ The index should include, in this order:
 1. A title naming the evidence index and contract number.
 2. Links to the matching learning contract and peer review, with the review marked pending until its file exists.
 3. An `Evidence summary` section near the top, initially marked not yet summarized. When the peer review is complete, the peer-review skill fills it with a concise summary of the evidence and notes collected for the contract. This section contains evidence summary only; exclude peer feedback, review findings, slice statuses, and follow-up actions.
-4. An `AI use` section immediately below `Evidence summary`, initially marked not yet reviewed. When completing the peer review, compare the AI-use plan in the contract with the notes and the student's confirmation. Summarize what the student did and did not do relative to that plan, including deviations or uncertainty.
+4. An `AI use` section immediately below `Evidence summary`, initially marked not yet reviewed. When completing the peer review, compare the AI-use plan in the contract with the notes and the student's confirmation. Summarize what the student did and did not do relative to that plan, including deviations or uncertainty. Track AI assistance with course documents (the contract, peer-review record, or evidence index) separately from AI assistance with assessed project work. Briefly disclose document assistance as standard course documentation support; do not imply that it was used to create assessed code.
 5. A timestamped notes timeline.
 6. A reconciled evidence-file list linking to files currently present under `evidence/cNN/`, excluding `index.md` itself. Include nested files with paths relative to the evidence folder.
 
@@ -46,6 +46,8 @@ When the index is created or its contract/review links change, update the corres
 When the user asks to add a note, write a concise, faithful summary of the information they provide in the notes timeline. Preserve earlier notes and order entries newest first. Format each entry as a list item with the creation timestamp followed by the note, for example `- **2026-11-05T14:30:00-07:00** — [note summary]`. Each entry must include its creation date and time in ISO 8601 format with an explicit timezone offset, for example `2026-11-05T14:30:00-07:00`.
 
 If the user has not said whether they used AI for the project or whether they want that use documented, ask whether they used AI and whether they would like to include it in this note or add a separate note. If they want to document AI use, ask what they asked the AI and how it helped. Record only what they choose to share; do not infer AI use or press them to include it. Wait for their answer before writing the note when the answer affects its contents.
+
+When AI assists with creating or updating the contract, peer-review record, or evidence index itself, briefly record that use in the index's `AI use` section as standard course documentation support. Keep it distinct from AI use on the assessed project. Do not add a timeline note for routine document maintenance unless the student asks for one.
 
 Use the timezone supplied by the user's current context when available. Otherwise use UTC and label it explicitly. Obtain the current time from an available clock source; do not invent or backdate timestamps. If the user supplies an event date different from the note creation time, keep it as note content and still timestamp when the note was recorded.
 

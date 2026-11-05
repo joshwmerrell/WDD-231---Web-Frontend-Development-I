@@ -5,15 +5,15 @@ permalink: /evidence/c01/
 # Evidence Index c01: Accessible Personal Portfolio Home Page
 
 - Contract: [Learning Contract c01](../../contracts/c01.md)
-- Peer review: [Peer Review r01](../../reviews/r01.md) — pending; review record not yet created
+- Peer review: [Peer Review r01](../../reviews/r01.md) — review complete
 
 ## Evidence summary
 
-Not yet summarized. When the learning contract peer review is complete, this section will summarize only the notes and evidence collected for this contract.
+Evidence includes Lighthouse results of 100 Performance, 90 Accessibility, 100 Best Practices, and 91 SEO; a WAVE report with 0 errors, 0 contrast errors, and 7 alerts; and first and second W3C Nu HTML Checker screenshots. The notes record that most initial validation issues were fixed, with 4 heading-structure errors remaining for later review because they are part of the current design.
 
 ## AI use
 
-Not yet reviewed against the AI-use plan in Learning Contract c01.
+AI assisted with updating the learning contract, peer-review record, and evidence index; the student identifies this as standard course documentation support. AI was not used for the assessed portfolio work. The contract allowed AI for explanations, analysis, interpreting findings, and suggestions, but prohibited AI from creating or completing assessed HTML. None of those optional project-support actions were used, and AI did not generate or complete the assessed code.
 
 ## Notes timeline
 

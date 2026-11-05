@@ -14,9 +14,11 @@ Pass-off results are **Passed**, **Pass with next step**, or **Not yet**. A “N
 
 ## Responsible AI use
 
+This workspace was created with AI assistance. AI may also help draft or update learning contracts, peer-review records, and evidence indexes; this is standard course documentation support. Record that documentation assistance briefly in the matching evidence index's `AI use` section, separately from any AI assistance with the assessed project work.
+
 AI can help you understand a competency, clarify a contract objective, explain concepts, ask guiding questions, offer hints, suggest debugging investigations, or give feedback on work you wrote. AI may create a new starter or template page for you to build on, provided it leaves the code for your assessed slice for you to write.
 
-AI must not generate or complete the code that demonstrates a slice you are working on for a contract. Use AI to support your understanding and learning, not to do the assessed work. When you use AI, record what you asked, what guidance you used or rejected, and how you independently checked your work. Be ready to explain the final implementation without depending on the AI conversation.
+AI must not generate or complete the code that demonstrates a slice you are working on for a contract. Use AI to support your understanding and learning, not to do the assessed work. When AI supports assessed project work, record what you asked, what guidance you used or rejected, and how you independently checked your work. Be ready to explain the final implementation without depending on the AI conversation.
 
 Debugging and evidence-based troubleshooting are part of every contract and pass-off. Record the symptom, your hypothesis, the evidence you gathered, the fix or conclusion, and how you verified it.
 
@@ -38,7 +40,7 @@ Keep this table current as contracts and peer reviews are created. A project may
 
 | Project | Contracts | Evidence folders | Peer reviews | Focus/status |
 | --- | --- | --- | --- | --- |
-| [Personal portfolio](projects/personal-portfolio/) | [c01](contracts/c01.md) | [c01 evidence index](evidence/c01/) | Not yet created (`r01.md` planned) | Semantic and accessible HTML — c01 in progress |
+| [Personal portfolio](projects/personal-portfolio/) | [c01](contracts/c01.md) | [c01 evidence index](evidence/c01/) | [r01](reviews/r01.md) — complete | Semantic and accessible HTML — c01 review complete |
 
 ## Course references
 

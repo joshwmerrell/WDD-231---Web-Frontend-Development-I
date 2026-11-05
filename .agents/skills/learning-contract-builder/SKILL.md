@@ -38,6 +38,8 @@ You may propose wording, steps, milestone criteria, resources, and evidence base
 
 Follow `README.md`'s responsible AI policy. AI may explain the objective and concepts, ask guiding questions, give conceptual hints, suggest debugging investigations, or review code the student wrote. AI may create a new project or template page as a starting point, but it must leave the code for every slice in the current contract for the student to implement.
 
+AI may draft or update the learning contract and related course documentation, including the evidence index and peer-review record. This is standard course documentation support. Make a brief note of that assistance in the matching evidence index's `AI use` section, separately from any AI use on assessed project work. Do not describe document assistance as AI having written the student's assessed code.
+
 Before creating or changing project files, identify the contract's assessed slices and keep their implementation out of the scaffold. Do not generate, complete, rewrite, or provide directly usable code for those slices, including as a “sample,” patch, or solution. If a scaffold would necessarily implement an assessed slice, create only the project directory and neutral empty files or ask the student how they want to proceed. Scaffolding for unrelated, unassessed setup may be created when it does not do the student's assessed work. Do not overwrite existing project work; create a new project directory when requested.
 
 When tutoring on an assessed slice, use explanations, questions, and graduated hints that help the student reason it out. Do not respond to a debugging request by supplying the finished implementation for that slice. Ask the student to explain the code and choices in their own words.
@@ -65,6 +67,8 @@ After saving the contract, clearly remind the student to add evidence under the 
 - an explanation of important decisions and a small change they can handle independently;
 - for debugging, the expected and actual behavior, hypothesis, evidence, fix, and verification;
 - an AI-use note stating what they asked, what they accepted or rejected, and how they checked the result.
+
+If AI helped create or update the contract, review, or evidence index itself, note that documentation assistance in the evidence index's `AI use` section and distinguish it from assistance with the assessed project implementation.
 
 Tell them to update the contract's evidence links/notes and to create a peer-review record in `reviews/` after the review. One record may cover several slices, but the review table must give each slice its own evidence note, peer feedback, and status. Explain that only after every slice in a competency has been peer-reviewed should they request the instructor/TA whole-competency pass-off and update the tracker.
 

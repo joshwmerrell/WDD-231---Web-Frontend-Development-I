@@ -40,6 +40,8 @@ Keep the reciprocal links and status synchronized throughout the workflow. When 
 
 Before completing the review, compare the AI-use plan in `contracts/cNN.md` with the notes in `evidence/cNN/index.md` and any related evidence. Review this briefly with the student:
 
+- Distinguish AI help with course documentation (drafting/updating the contract, peer-review record, or evidence index) from AI help with assessed project work. Documentation assistance is standard course use and should be briefly disclosed in the evidence index's `AI use` section; it does not mean AI produced assessed code.
+
 - Treat an AI-use action as followed when the notes clearly document it. Briefly state what the note records and invite the student to correct or add context; do not repeat detailed questions already answered in the notes.
 - Ask a focused question about any planned action whose actual use is unclear, undocumented, changed, or not followed. Record the student's answer, including what they did or did not do and why when they choose to explain.
 - Do not infer AI use from the existence of code or evidence. If the student cannot confirm an item, mark it unclear rather than assuming they followed the plan.
@@ -48,7 +50,7 @@ Checkpoint this AI-use conversation using the same pending-question and answer p
 
 When completing the review, update `## Evidence summary` near the top of `evidence/cNN/index.md` with a concise summary of the notes and evidence collected for the contract. Keep this section limited to the evidence itself; do not include peer feedback, review findings, slice statuses, or follow-up actions.
 
-Immediately below it, update `## AI use` with a concise comparison of the contract's planned AI use and the student's confirmed actual use. Specifically state which planned actions the student followed, which they changed or did not do, and any parts that remain unclear. Use the notes and the student's review answers; do not infer missing details. If the contract says AI was not used or no AI use was planned, record that accurately.
+Immediately below it, update `## AI use` with a concise comparison of the contract's planned AI use and the student's confirmed actual use. Specifically state any AI assistance with course documentation separately from project support, which planned project-support actions the student followed, which they changed or did not do, and any parts that remain unclear. Use the notes and the student's review answers; do not infer missing details. If the student confirms AI was not used for assessed project work, say so while still recording any confirmed documentation assistance. If the contract says no AI use was planned, record that accurately.
 
 Reconcile the evidence-file inventory and update the README project row. Do not mark the whole competency as passed based on the review.
 
