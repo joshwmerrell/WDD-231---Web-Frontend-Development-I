@@ -1,0 +1,44 @@
+/* Styles for the personal portfolio website */
+
+
+/* All pages: */
+
+/* Normalization includes removing default margins and paddings, as well as positioning everything in the center. */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    max-width: 1000px;
+}
+
+header, #hero, main, footer {
+    margin: 4rem auto;
+    /* temp code \/ */
+    background-color: #f0f0f0;
+}
+
+#hero, main > section, footer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#site-nav {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Main page: */
+

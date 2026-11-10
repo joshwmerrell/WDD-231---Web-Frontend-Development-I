@@ -4,49 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD231 Project - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <p aria-hidden="true"><b>For now, this is HTML only for c01.</b></p>
 
     <header>
         <p id="logo">portfolio.jmerrell.online</p>
         <h2>Joshua Merrell</h2>
         <p>2002 - <i>Present</i></p>
         <nav id="site-nav">
-            <ul>
-                <li><a href="https://jmerrell.online">Lobby</a></li>
-                <li><a href="#hero">Portfolio</a></li>
-                <li><a href="https://sonofgod.jmerrell.online">Son of God</a></li>
-            </ul>
+            <a href="https://jmerrell.online">Lobby</a>
+            <a href="#body">Portfolio</a>
+            <a href="https://sonofgod.jmerrell.online">Son of God</a>
         </nav>
     </header>
 
+
+    <section id="hero">
+        <h1>Leveraging Creative Originality</h1>
+        <h2><i>With</i> <u>and</u> <i>Without</i> AI</h2>
+        <ul>
+            <li>Web Designer and Developer</li>
+        </ul>
+        <nav id="page-nav">
+            <a href="#projects">Projects</a>
+        </nav>
+    </section>
+
+
     <main>
-        <section id="hero">
-            <h1>Leveraging Creative Originality</h1>
-            <h2><i>With</i> <u>and</u> <i>Without</i> AI</h2>
-            <ul>
-                <li>Web Designer and Developer</li>
-            </ul>
-        </section>
+
+        <h4>Projects</h4>
+        <div id="project-categories">
+            <button>With AI</button>
+            <button>Without AI</button>
+        </div>
+        <nav id="project-nav">
+            <a href="#project-1">INO - Concept Logo</a>
+            <a href="#project-2">Project 2</a>
+            <a href="#project-3">Project 3</a>
+        </nav>
+
         <section id="projects">
-            <hr>
-            <h4>Projects</h4>
-            <div id="project-categories">
-                <button>With AI</button>
-                <button>Without AI</button>
-            </div>
-            <nav id="project-nav">
-                <a href="#project-1">INO - Concept Logo</a>
-                <a href="#project-2">Project 2</a>
-                <a href="#project-3">Project 3</a>
-            </nav>
-            <br>
-            <hr>
+
             <a class="project-link" href="#">
                 <article id="project-1">
-                    <hr>
                     <p class="project ai category">Category: Without AI</p>
                     <h2>Incognito Night Owls - Concept Logo</h2>
                     <img src="two-estonian-teenagers-install-the-first-apache-web-server-in-europe-fictional-84db38-1024.jpg" alt="project image logo of an owl and a magnifying glass">
@@ -58,12 +61,11 @@
                         <li>Branding</li>
                         <li>Typography</li>
                     </ul>
-                    <hr>
                 </article>
             </a>
+
             <a class="project-link" href="#">
                 <article id="project-2">
-                    <hr>
                     <p class="project ai category">Category: With AI</p>
                     <h2>Project 2</h2>
                     <img src="two-estonian-teenagers-install-the-first-apache-web-server-in-europe-fictional-84db38-1024.jpg" alt="project image">
@@ -75,12 +77,11 @@
                         <li>Competency 3</li>
                         <li>Competency 4</li>
                     </ul>
-                    <hr>
                 </article>
             </a>
+
             <a class="project-link" href="#">
                 <article id="project-3">
-                    <hr>
                     <p class="project ai category">Category: Without AI</p>
                     <h2>Project 3</h2>
                     <img src="two-estonian-teenagers-install-the-first-apache-web-server-in-europe-fictional-84db38-1024.jpg" alt="project image">
@@ -92,11 +93,11 @@
                         <li>Competency 3</li>
                         <li>Competency 4</li>
                     </ul>
-                    <hr>
                 </article>
             </a>
-            <br>
+            
         </section>
+
     </main>
 
     <footer>
