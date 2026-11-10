@@ -40,7 +40,7 @@ Keep this table current as contracts and peer reviews are created. A project may
 
 | Project | Contracts | Evidence folders | Peer reviews | Focus/status |
 | --- | --- | --- | --- | --- |
-| [Personal portfolio](projects/personal-portfolio/) | [c01](contracts/c01.md) | [c01 evidence index](evidence/c01/) | [r01](reviews/r01.md) — complete | Semantic and accessible HTML — c01 review complete |
+| [Personal portfolio](projects/personal-portfolio/) | [c01](contracts/c01.md), [c02](contracts/c02.md) | [c01 evidence index](evidence/c01/), [c02 evidence index](evidence/c02/) | [r01](reviews/r01.md) — complete; r02 — pending/not yet created | c01: Semantic and accessible HTML — review complete; c02: Responsive CSS and inclusive visual design — review checkpoint November 12, 2026 |
 
 ## Course references
 
