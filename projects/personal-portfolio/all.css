@@ -12,10 +12,6 @@ body {
     max-width: 1000px;
 }
 
-#current-url {
-    font-style: italic;
-}
-
 a {
     color: #333;
     text-decoration: none;
@@ -23,6 +19,10 @@ a {
 
 
 /* Mobile First */
+
+#current-url {
+    font-style: italic;
+}
 
 header {
     position: sticky;
@@ -51,13 +51,13 @@ header {
         color: #333;
         font-weight: lighter;
     }
-    a:hover {
+    a:focus, a:hover {
         background-color: lightblue;
     }
 }
 
 #hero {
-    padding: 35vh 0 40.5vh 0;
+    padding: 30vh 0 45.5vh 0;
     height: 100%;
     #professions-list {
         display: none;
@@ -78,10 +78,22 @@ header {
         font-size: 1.2rem;
         font-weight: bold;
     }
-    a:hover {
+    a:focus, a:hover {
         color: white;
         background-color: #0056b3;
     }
+}
+
+main {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: lightblue;
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 
