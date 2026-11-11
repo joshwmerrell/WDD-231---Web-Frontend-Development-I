@@ -57,7 +57,7 @@ header {
         color: #333;
         font-weight: lighter;
     }
-    a:focus, a:hover {
+    a:focus, a:active {
         background-color: lightblue;
     }
 }
@@ -89,13 +89,13 @@ header {
         font-size: 1.2rem;
         font-weight: bold;
     }
-    a:focus, a:hover {
+    a:focus, a:active {
         color: white;
         background-color: #0056b3;
     }
 }
 
-#page-nav:focus, #page-nav:hover {
+#page-nav:focus, #page-nav:active {
     box-shadow: 0 0.5rem 1rem lightblue;
 }
 
