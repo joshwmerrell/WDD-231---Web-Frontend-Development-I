@@ -52,7 +52,7 @@
     }
 }
 
-.project-link:focus, .project-link:active {
+.project-link:focus, .project-link:hover {
     border: 0.5rem solid lightblue;
     box-shadow: none;
 }
