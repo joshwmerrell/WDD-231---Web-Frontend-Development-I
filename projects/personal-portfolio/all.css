@@ -27,9 +27,9 @@ a {
 header {
     position: sticky;
     top: 0;
+    padding: 1vh 0;
+    height: 4vh;
     background-color: white;
-    padding: 0.5rem 0;
-    height: 2.5rem;
     #my-name, #living-since {
         display: none;
     }
@@ -37,17 +37,18 @@ header {
 
 #site-nav {
     position: sticky;
-    top: 2.5rem;
+    top: 4vh;
     display: flex;
-    height: 3rem;
+    height: 6vh;
     align-items: center;
     background-color: white;
     .current-subdomain {
         font-weight: bold;
     }
     a {
-        padding: 1rem;
+        padding: 1.8vh 0 0 0;
         width: 100%;
+        height: 100%;
         color: #333;
         font-weight: lighter;
     }
@@ -57,8 +58,8 @@ header {
 }
 
 #hero {
-    padding: 30vh 0 45.5vh 0;
-    height: 100%;
+    padding: 30vh 0 0 0;
+    height: 84vh;
     #professions-list {
         display: none;
     }
@@ -66,13 +67,16 @@ header {
 
 #page-nav {
     position: sticky;
-    top: 5.5rem;
+    top: 9.9vh;
+    height: 6vh;
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+    box-shadow: 0 0.5rem 0.5rem #333;
     a {
-        padding: 1rem;
+        padding: 1.8vh 0 0 0;
         width: 100%;
+        height: 100%;
         background-color: lightblue;
         color: #333;
         font-size: 1.2rem;
@@ -82,6 +86,10 @@ header {
         color: white;
         background-color: #0056b3;
     }
+}
+
+#page-nav:focus, #page-nav:hover {
+    box-shadow: 0 0.5rem 1rem lightblue;
 }
 
 main {
