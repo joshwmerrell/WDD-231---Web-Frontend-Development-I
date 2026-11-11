@@ -4,69 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD231 Project - Personal Portfolio</title>
+    <link rel="stylesheet" href="all.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 
     <header>
-        <p id="logo">portfolio.jmerrell.online</p>
-        <h2>Joshua Merrell</h2>
-        <p>2002 - <i>Present</i></p>
-        <nav id="site-nav">
-            <a href="https://jmerrell.online">Lobby</a>
-            <a href="#body">Portfolio</a>
-            <a href="https://sonofgod.jmerrell.online">Son of God</a>
-        </nav>
+        <p id="current-url">portfolio.jmerrell.online</p>
+        <h2 id="my-name">Joshua Merrell</h2>
+        <p id="living-since">2002 - <i>Present</i></p>
     </header>
+
+
+    <nav id="site-nav">
+        <a href="https://jmerrell.online">www....</a>
+        <a href="#" class="current-subdomain">portfolio....</a>
+        <a href="https://sonofgod.jmerrell.online">sonofgod....</a>
+    </nav>
 
 
     <section id="hero">
         <h1>Leveraging Creative Originality</h1>
         <h2><i>With</i> <u>and</u> <i>Without</i> AI</h2>
-        <ul>
+        <ul id="professions-list">
             <li>Web Designer and Developer</li>
         </ul>
-        <nav id="page-nav">
-            <a href="#projects">Projects</a>
-        </nav>
     </section>
+
+
+    <nav id="page-nav">
+        <a href="#projects">Projects</a>
+    </nav>
 
 
     <main>
 
-        <h4>Projects</h4>
-        <div id="project-categories">
-            <button>With AI</button>
-            <button>Without AI</button>
-        </div>
-        <nav id="project-nav">
-            <a href="#project-1">INO - Concept Logo</a>
-            <a href="#project-2">Project 2</a>
-            <a href="#project-3">Project 3</a>
-        </nav>
-
         <section id="projects">
+
+            <h4 class="section-title">Projects</h4>
+            <!-- To be added when javascript is implemented -->
+            <!-- <div id="project-categories">
+                <button>With AI</button>
+                <button>Without AI</button>
+            </div>
+            <nav id="project-nav">
+                <a href="#project-1">INO - Concept Logo</a>
+                <a href="#project-2">Project 2</a>
+                <a href="#project-3">Project 3</a>
+            </nav> -->
 
             <a class="project-link" href="#">
                 <article id="project-1">
-                    <p class="project ai category">Category: Without AI</p>
-                    <h2>Incognito Night Owls - Concept Logo</h2>
-                    <img src="two-estonian-teenagers-install-the-first-apache-web-server-in-europe-fictional-84db38-1024.jpg" alt="project image logo of an owl and a magnifying glass">
-                    <h4>Concept logo for a Private Investigation Agency</h4>
-                    <p>Competencies:</p>
-                    <ul>
-                        <li>Adobe Creative Suite</li>
-                        <li>Logo Design</li>
-                        <li>Branding</li>
-                        <li>Typography</li>
-                    </ul>
+                    <!-- <p class="project-ai-category">Category: Without AI</p> -->
+                    <img src="./project-1/assets/brand vertical.png" alt="project image logo of an owl and a magnifying glass">
+                    <h2>INCOGNITO NIGHT OWL</h2>
+                    <h4>Concept Branding</h4>
+                    <div class="project-competencies">
+                        <p>Adobe Creative Suite</p>
+                        <p>Logo Design</p>
+                        <p>Branding</p>
+                        <p>Typography</p>
+                    </div>
                 </article>
             </a>
 
             <a class="project-link" href="#">
                 <article id="project-2">
-                    <p class="project ai category">Category: With AI</p>
+                    <!-- <p class="project-ai-category">Category: With AI</p> -->
                     <h2>Project 2</h2>
                     <img src="two-estonian-teenagers-install-the-first-apache-web-server-in-europe-fictional-84db38-1024.jpg" alt="project image">
                     <h4>Project 2 Description</h4>
@@ -82,7 +87,7 @@
 
             <a class="project-link" href="#">
                 <article id="project-3">
-                    <p class="project ai category">Category: Without AI</p>
+                    <!-- <p class="project-ai-category">Category: Without AI</p> -->
                     <h2>Project 3</h2>
                     <img src="two-estonian-teenagers-install-the-first-apache-web-server-in-europe-fictional-84db38-1024.jpg" alt="project image">
                     <h4>Project 3 Description</h4>

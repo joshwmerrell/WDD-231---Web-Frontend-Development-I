@@ -1,44 +1,63 @@
-/* Styles for the personal portfolio website */
+/* Styles for main page */
 
 
-/* All pages: */
+/* Mobile First */
 
-/* Normalization includes removing default margins and paddings, as well as positioning everything in the center. */
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
+.section-title {
+    display: none;
 }
 
-body {
-    max-width: 1000px;
-}
-
-header, #hero, main, footer {
-    margin: 4rem auto;
-    /* temp code \/ */
-    background-color: #f0f0f0;
-}
-
-#hero, main > section, footer {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-#site-nav {
-    margin-top: 3rem;
+#projects {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #f0f0f0;
+    /* justify-content: center; */
+    padding: 10rem 1rem;
 }
 
-a {
-    text-decoration: none;
+.project-link {
+    margin: 2rem;
+    width: 100%;
+    box-shadow: 0 0.5rem 0.5rem #333;
+    article {
+        padding: 1rem;
+        > img {
+            margin: 1rem 0;
+            width: 100%;
+            height: auto;
+        }
+        h2 {
+            display: none;
+        }
+        /* This code will may be reused later */
+        /* > h2 {
+            margin: 2rem 0 1rem 0;
+            font-size: 2rem;
+            font-weight: bold;
+        } */
+        > h4 {
+            margin: 0 0 1rem 0;
+            font-size: 2rem;
+            /* Code to use later */
+            /* font-size: 1.5rem; */
+            font-weight: bold;
+        }
+        > .project-competencies {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            > p {
+                margin: 0.5rem;
+                padding: 0.25rem;
+                width: max-content;
+                font-weight: bold;
+                text-align: left;
+                border: 1px solid #333;
+            }
+        }
+    }
 }
 
-
-/* Main page: */
-
+.project-link:focus, .project-link:hover {
+    box-shadow: 0 0.5rem 1rem lightblue;
+}

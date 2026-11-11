@@ -1,0 +1,92 @@
+/* Styles for all pages */
+
+/* Normalization includes removing default margins and paddings, as well as positioning everything in the center. */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    max-width: 1000px;
+}
+
+#current-url {
+    font-style: italic;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+/* Mobile First */
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0.5rem 0;
+    height: 2.5rem;
+    #my-name, #living-since {
+        display: none;
+    }
+}
+
+#site-nav {
+    position: sticky;
+    top: 2.5rem;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    background-color: white;
+    .current-subdomain {
+        font-weight: bold;
+    }
+    a {
+        padding: 1rem;
+        width: 100%;
+        color: #333;
+        font-weight: lighter;
+    }
+    a:hover {
+        background-color: lightblue;
+    }
+}
+
+#hero {
+    padding: 35vh 0 40.5vh 0;
+    height: 100%;
+    #professions-list {
+        display: none;
+    }
+}
+
+#page-nav {
+    position: sticky;
+    top: 5.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    a {
+        padding: 1rem;
+        width: 100%;
+        background-color: lightblue;
+        color: #333;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    a:hover {
+        color: white;
+        background-color: #0056b3;
+    }
+}
+
+
+
+/* Code for desktop: */
+/* header {
+    padding: 4rem 0;
+} */
