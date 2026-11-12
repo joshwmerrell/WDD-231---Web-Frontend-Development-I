@@ -3,7 +3,7 @@
 
 /* Mobile First */
 
-#projects {
+#projects, #about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +34,21 @@
         .project-competencies {
             display: none;
         }
+    }
+}
+
+.about-article {
+    h3 {
+        margin: 3rem 0;
+        font-size: 3rem;
+    }
+    p {
+        margin: 5rem auto;
+        width: 80%;
+        text-align: left;
+        text-indent: 3rem;
+        line-height: 3rem;
+        font-size: 1.7rem;
     }
 }
 
