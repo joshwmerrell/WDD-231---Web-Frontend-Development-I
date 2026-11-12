@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: lightblue;
     > * {
         background-color: white;
     }
@@ -179,8 +179,3 @@ footer {
         position: static;
     }
 }
-
-/* Code for desktop: */
-/* header {
-    padding: 4rem 0;
-} */
