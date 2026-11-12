@@ -10,8 +10,8 @@
 }
 
 .project-link {
-    margin: 2rem;
-    width: 100%;
+    margin: 2rem auto;
+    width: 80%;
     box-shadow: 0 0.5rem 1rem lightblue;
     article {
         padding: 1rem;
