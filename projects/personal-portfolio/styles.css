@@ -54,19 +54,22 @@
         max-width: 44%;
         height:9rem;
         margin: 1rem;
+        padding: 0 0 10rem 0;
         article {
             display: grid;
             grid-template-columns: 1fr 3fr;
             column-gap: 2rem;
             text-wrap: wrap;
             > img {
+                align-self: center;
                 justify-self: right;
                 width: 100%;
-                max-width: 150px;
+                max-width: 100px;
             }
             > h4 {
                 grid-column: 2/3;
                 align-self: center;
+                margin: 0.75rem 0 0 0;
                 text-align: left;
             }
         }
