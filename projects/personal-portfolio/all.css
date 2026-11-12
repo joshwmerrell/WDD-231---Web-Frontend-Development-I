@@ -154,8 +154,8 @@ footer {
         top: 10vh;
     }
     #hero {
-        padding: 10vh 0 0 0;
-        height: 30vh;
+        padding: 30vh 0 0 0;
+        height: 80vh;
     }
     #page-nav {
         position: sticky;
@@ -170,6 +170,7 @@ footer {
         padding: 0 0 5vh 0;
         > section{
             padding: 20vh 0 0 0;
+            height: 80vh;
             .section-title {
                 position: static;
             }
