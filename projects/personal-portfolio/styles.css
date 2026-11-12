@@ -15,6 +15,9 @@
     box-shadow: 0 0.5rem 1rem lightblue;
     article {
         padding: 1rem;
+        .project-ai-category {
+            display: none;
+        }
         > img {
             margin: 1rem 0;
             width: 75%;
@@ -23,36 +26,72 @@
         h2 {
             display: none;
         }
-        /* This code will may be reused later */
-        /* > h2 {
-            margin: 2rem 0 1rem 0;
-            font-size: 2rem;
-            font-weight: bold;
-        } */
         > h4 {
             margin: 0 0 1rem 0;
             font-size: 2rem;
-            /* Code to use later */
-            /* font-size: 1.5rem; */
             font-weight: bold;
         }
-        > .project-competencies {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            > p {
-                margin: 0.5rem;
-                padding: 0.25rem;
-                width: max-content;
-                font-weight: bold;
-                text-align: left;
-                border: 1px solid #333;
-            }
+        .project-competencies {
+            display: none;
         }
     }
 }
 
 .project-link:focus, .project-link:hover {
-    border: 0.5rem solid lightblue;
-    box-shadow: none;
+    box-shadow: 0 0 0.5rem #0056b3;
+}
+
+
+/* Desktop Styles */
+
+@media (min-width: 810px) {
+    #projects {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .project-link {
+        max-width: 44%;
+        height:9rem;
+        margin: 1rem;
+        article {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            column-gap: 2rem;
+            text-wrap: wrap;
+            > img {
+                justify-self: right;
+                width: 100%;
+                max-width: 150px;
+            }
+            > h4 {
+                grid-column: 2/3;
+                align-self: center;
+                text-align: left;
+            }
+        }
+    }
+    .project-link:focus, .project-link:hover {
+        height: auto;
+        max-height: auto;
+        min-height: 20vh;
+        article {
+            .project-competencies {
+                grid-column: 1/3;
+                grid-row: 2/3;
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                > p {
+                    margin: 0.5rem;
+                    padding: 0.25rem;
+                    width: max-content;
+                    font-size: 1.3rem;
+                    font-weight: bold;
+                    text-align: left;
+                    border: 1px solid #333;
+                }
+            }
+        }
+    }
 }

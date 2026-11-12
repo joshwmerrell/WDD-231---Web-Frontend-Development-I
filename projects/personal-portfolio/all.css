@@ -4,9 +4,16 @@
 * {
     margin: 0 auto;
     padding: 0;
-    max-width: 1000px;
+    max-width: 2000px;
     box-sizing: border-box;
     text-align: center;
+}
+
+body {
+    background-color: white;
+    > * {
+        background-color: white;
+    }
 }
 
 a {
@@ -64,7 +71,7 @@ header {
 
 #hero {
     padding: 40vh 0 0 0;
-    height: 100vh;
+    height: 94vh;
     #professions-list {
         display: none;
     }
@@ -131,6 +138,47 @@ footer {
 }
 
 
+/* Desktop Styles */
+
+@media (min-width: 810px) {
+    header {
+        position: sticky;
+        height: 10vh;
+        padding: 2vh 0;
+        #my-name, #living-since {
+            display: block;
+        }
+    }
+    #site-nav {
+        position: sticky;
+        top: 10vh;
+    }
+    #hero {
+        padding: 10vh 0 0 0;
+        height: 30vh;
+    }
+    #page-nav {
+        position: sticky;
+        top: 16vh;
+        margin: 0 0 -20vh 0;
+        height: 4vh;
+        > a {
+            padding: 0.5vh 0;
+        }
+    }
+    main {
+        padding: 0 0 5vh 0;
+        > section{
+            padding: 20vh 0 0 0;
+            .section-title {
+                position: static;
+            }
+        }
+    }
+    footer {
+        position: static;
+    }
+}
 
 /* Code for desktop: */
 /* header {
